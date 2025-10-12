@@ -3,8 +3,6 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-  USERNAME: "TuanTuVN"
-  PASSWORD: ""
       VERSION: "8e"
     devices:
       - /dev/kvm
