@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/windows-98-se-isofile/Windows%2098%20Second%20Edition.iso"
+      VERSION: "11"
     devices:
       - /dev/kvm
       - /dev/net/tun
